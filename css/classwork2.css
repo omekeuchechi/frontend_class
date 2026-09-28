@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1 box2 box2"
+                         "box3 box2 box2"
+                         "box3 . box4"
+                         "box3 box5 box6";
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+.box{
+    background: #f5cd9a;
+    border: 2px solid #e0a860;
+    border-radius: 6px;
+    color: #b8562b;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.box-1{
+    grid-area: box1;
+}
+
+.box-2{
+    grid-area: box2;
+}
+
+.box-3{
+    grid-area: box3;
+}
+
+.box-4{
+    grid-area: box4;
+}
+
+.box-5{
+    grid-area: box5;
+}
+
+.box-6{
+    grid-area: box6;
+}

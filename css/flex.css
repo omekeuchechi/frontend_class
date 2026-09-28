@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.header{
+    background: #800080;
+    width: 100%;
+    height: 100px;
+}
+
+.header > h1{
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+}
+
+.first-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+}
+
+
+.first-content > article {
+    padding: 10px;
+    margin: 10px;
+    background: #00ffff;
+    min-width: 900px;
+}
+

@@ -1,0 +1,21 @@
+.first-heading{
+    background-color: tomato;
+    color: #fff;
+}
+
+.second-heading{
+    background-color: #ccc;
+    color: #000;
+}
+
+.third-heading{
+    background-color: #0000000c;
+    border: 4px solid #0000ff;
+}
+
+.last-heading{
+    background-color: hsl(51, 100%, 50%);
+    color: blue;
+    border: 4px solid green;
+}
+

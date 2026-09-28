@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #000;
+    overflow-x: hidden;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background: #fff;
+    overflow: hidden;
+}
+
+.box > p{
+    text-align: center;
+    padding: 80px 0;
+    font-size: 2rem;
+}
+
+.curve-box{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background: #ffa500;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+
+.curve-box > p{
+    text-align: center;
+    padding: 80px 0;
+    font-size: 2rem;
+}
+
+#btn{
+    margin: 20px 0 20px 46%;
+    background: #1996bd;
+    border: none;
+    padding: 15px 40px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.right-side-curve{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background: #00ff00;
+    overflow: hidden;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.right-side-curve > p{
+    text-align: center;
+    padding: 80px 0;
+    font-size: 2rem;
+}
